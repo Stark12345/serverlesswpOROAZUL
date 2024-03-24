@@ -10,7 +10,7 @@ functions:
   requestHandler:
     handler: api/index.handler
     memorySize: 1024
-    timeout: 35
+    timeout: 15
     events:
       - httpApi:
           method: any
